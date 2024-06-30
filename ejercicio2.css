@@ -1,0 +1,63 @@
+/* Estilo general */
+
+body{
+	background-color: skyblue;
+}
+
+
+.titulo {
+	background-color: slateblue;
+	color: white;
+	font-family: Tahoma;
+	padding: 10px;
+}
+
+/* Estilo ejercicio 2 */
+
+/* imagenes de los pagos */
+.metodos-pago img {
+    width: 50px;
+}
+/* Fin de código */
+
+/* encabezados de los formularios */
+legend{
+	color:darkblue;
+	font-family: verdana;
+	font-weight: bold;
+}
+/* Fin de código */
+
+/* textos de los formularios */
+fieldset{
+	color:darkblue;
+	font-family: calibri;
+	font-weight: 600;
+}
+/* Fin de código */
+
+/* boton del ejercicio 2 */
+.botonEnviar{
+	background-color: darkblue;
+	color:skyblue;
+	font-size: 2em;
+	padding: 25px;
+}
+/* Fin de código */
+
+/* desplegable de las categorias */
+.categoria{
+	display: inline-flex;
+	flex-direction: column;
+}
+/* Fin de código */
+
+/* boton del ejercicio 2b */
+#boton {
+	padding: 25px;
+	background-color: darkblue;
+	color: skyblue;
+	font-size: 2em;
+	text-decoration: none;
+}
+/* Fin de código */

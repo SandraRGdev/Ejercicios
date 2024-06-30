@@ -1,0 +1,77 @@
+/* Estilo general */
+.titulo {
+    background-color: slateblue;
+    color: white;
+    font-family: Tahoma;
+    padding: 10px;
+}
+
+/* Estilo ejercicio 1 */
+
+/* Img portada del disco */
+.portada-disco {
+    width: 250px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+    margin-bottom: 10px; 
+}
+/* Fin de código */
+
+/* Estructura de la tabla */
+table {
+    width: 250px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9); 
+}
+/* Fin de código */
+
+/* Datos de la tabla */
+table, td {
+    border: 3px solid red;
+    border-collapse: collapse;
+    font-family: impact;
+    padding-left: 5px;
+
+}
+/* Fin de código */
+
+/* Encabezado de la tabla */
+thead th {
+    background-color: pink;
+    font-family: verdana;
+}
+/* Fin de código */
+
+/* Primera columna de la tabla */
+tbody th {
+    background-color: hotpink;
+    border: 3px solid red;
+	text-align: start;
+    padding-left: 5px;
+
+}
+/* Fin de código */
+
+/* Elemento especial destacado */
+.elemento-destacado {
+    background-color: yellow;
+    font-weight: bold;
+    color: red;
+    text-shadow: 2px 2px black;
+}
+/* Fin de código */
+
+/* Ajuste de anchos de columnas */
+table th:nth-child(1),
+table td:nth-child(1) {
+    width: calc(250px * 0.15); /* 15% de 250px */
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+    width: calc(250px * 0.60); /* 60% de 250px */
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+    width: calc(250px * 0.25); /* 25% de 250px */
+}
+/* Fin de código */
